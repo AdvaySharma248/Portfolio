@@ -1052,7 +1052,7 @@ export default function Portfolio() {
               {[
                 { icon: Github, href: 'https://github.com/AdvaySharma248', label: 'GitHub' },
                 { icon: Linkedin, href: 'https://www.linkedin.com/in/advay-sharma-6025ba314/', label: 'LinkedIn' },
-                { icon: Mail, href: 'advaysharma2489@gmail.com', label: 'Email' },
+                { icon: Mail, href: 'mailto:advaysharma248@gmail.com', label: 'Email' },
                 { icon: Download, href: '#', label: 'Resume' },
               ].map((social) => (
                 <motion.a
