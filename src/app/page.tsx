@@ -195,7 +195,7 @@ function SkillOrb({ skill, position, index }: { skill: any; position: [number, n
 
   const getCategoryColor = (category: string) => {
     const colors = {
-      'Languages': '#3b82f6',
+      'Technical Skills': '#3b82f6',
       'Frontend': '#06b6d4',
       'Backend': '#1e40af',
       'Databases': '#059669',
@@ -448,12 +448,12 @@ export default function Portfolio() {
   }, [gameTargets.length, gameScore]);
 
   const skills = [
-    { name: 'C', category: 'Languages', level: 'Advanced' },
-    { name: 'C++', category: 'Languages', level: 'Advanced' },
-    { name: 'Java', category: 'Languages', level: 'Intermediate' },
-    { name: 'Python', category: 'Languages', level: 'Advanced' },
-    { name: 'JavaScript', category: 'Languages', level: 'Advanced' },
-    { name: 'TypeScript', category: 'Languages', level: 'Advanced' },
+    { name: 'C', category: 'Technical Skills', level: 'Advanced' },
+    { name: 'C++', category: 'Technical Skills', level: 'Advanced' },
+    { name: 'Java', category: 'Technical Skills', level: 'Intermediate' },
+    { name: 'Python', category: 'Technical Skills', level: 'Advanced' },
+    { name: 'JavaScript', category: 'Technical Skills', level: 'Advanced' },
+    { name: 'TypeScript', category: 'Technical Skills', level: 'Advanced' },
     { name: 'HTML', category: 'Frontend', level: 'Expert' },
     { name: 'CSS', category: 'Frontend', level: 'Expert' },
     { name: 'ReactJS', category: 'Frontend', level: 'Advanced' },
@@ -736,7 +736,7 @@ export default function Portfolio() {
 
           {/* Skills Categories */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {['Languages', 'Frontend', 'Backend', 'Databases', 'Tools'].map((category) => (
+            {['Technical Skills', 'Frontend', 'Backend', 'Databases', 'Tools'].map((category) => (
               <motion.div
                 key={category}
                 className="p-6 rounded-3xl bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-md border border-white/20 hover:border-blue-500/50 transition-all duration-300"
