@@ -70,11 +70,7 @@ npm run build
 npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to see your application running.
-
-## 🤖 Powered by Z.ai
-
-This scaffold is optimized for use with [Z.ai](https://chat.z.ai) - your AI assistant for:
+Open (https://advaysharmaportfolio.vercel.app/) to see my portfolio application running.
 
 - **💻 Code Generation** - Generate components, pages, and features instantly
 - **🎨 UI Development** - Create beautiful interfaces with AI assistance  
